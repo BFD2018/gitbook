@@ -8,13 +8,14 @@
     "plugins": [
         "donate",
         "github-buttons@2.1.0",
-        "edit-link"
+        "edit-link",
+		"page-footer"
     ],
 
     "pluginsConfig": {
         "donate": {
-            "wechat": "https://sphard.com/images/wechatpay.jpg",
-            "alipay": "https://sphard.com/images/alipay.jpg",
+            "wechat": "http://qa1xnjutv.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200512201630.png",
+            "alipay": "http://qa1xnjutv.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200512201624.jpg",
             "title": "",
             "button": "打赏",
             "alipayText": "支付宝打赏",
@@ -28,8 +29,25 @@
             "size": "small"
         },
         "edit-link": {
-            "base": "https://github.com/darrenliuwei/gitbook/edit/master",
+            "base": "https://github.com/BFD2018/gitbook/tree/master",
             "label": "Edit This Page"
+        },
+		"page-footer": {
+            "description": "modified at",
+            "signature": "Xiong",
+            "wisdom": "More than a coder, more than a designer",
+            "format": "yyyy-MM-dd hh:mm:ss",
+            "copyright": "Copyright &#169; aleen42",
+            "timeColor": "#666",
+            "copyrightColor": "#666",
+            "utcOffset": "8",
+            "isShowQRCode": true,
+            "baseUri": "https://github.com/BFD2018/gitbook/tree/master",
+            "isShowIssues": true,
+            "repo": "BFD2018/gitbook",
+            "issueNum": "8",
+            "token": "",
+            "style": "normal"
         }
     }
 }
